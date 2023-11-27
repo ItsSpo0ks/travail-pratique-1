@@ -1,0 +1,100 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Conteneurs principaux, (main, header, nav, section, footer)*/
+main {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  align-items: baseline;
+  font-size: 1;
+}
+nav {
+  margin-right: 6px;
+}
+section {
+  width: 960px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  margin: 41px auto 100px;
+  box-shadow: 12px 12px 20px #8b8b8b;
+  position: relative;
+}
+figure {
+  width: 960px;
+  height: 400px;
+}
+figcaption {
+  background-color: rgba(0, 0, 0, 0.551);
+  color: white;
+  font-weight: bold;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  padding: 12px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 250px;
+}
+
+/* Classes */
+.titre-bas-page {
+  margin: auto;
+  padding-top: 54px;
+  width: 960px;
+  display: flex;
+  align-items: center;
+}
+.art {
+  width: 320px;
+  padding: 15px 28px 15px 0px;
+}
+.media {
+  width: 320px;
+  padding: 13px 15px 15px 15px;
+}
+.recherche {
+  width: 320px;
+  padding: 13px 15px 15px 15px;
+}
+
+.liens-bas-page {
+  margin: auto;
+  width: 960px;
+  display: flex;
+  align-items: center;
+}
+
+.addresse {
+  width: 320px;
+}
+.medias-sociaux {
+  width: 320px;
+  padding: 0px 15px;
+}
+input {
+  background-color: black;
+  border: 1px solid white;
+}
+
+/* Typo*/
+
+p {
+  font-size: 25px;
+  padding-right: 144px;
+}
+a {
+  padding: 14px;
+}
